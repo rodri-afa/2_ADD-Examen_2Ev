@@ -1,8 +1,14 @@
 Conéctate a tu cuenta de ATLAS y realizar las siguientes queries utilizando la BBDD sample_restaurants
  
 1. Buscar todos los documentos de la colección neighborhoods de tipo MultiPolygon (Resultados esperados 27)
+
+
 2. Buscar todos los documentos de la colección neighborhoods de tipo MultiPolygon y name Corona (Resultados esperados 1)
+
+
 3. Buscar todos los documentos de la colección neighborhoods donde el name  es distinto de “Borough Park”. Utilizar el operador $ne (not equal).  El resultado debe mostrar solo el campo name. (Resultados esperados 194)
+
+
 4. Buscar todos los documentos de la colección neighborhoods donde el name  es distinto de 
 	•	Borough Park
 	•	Bedford
@@ -13,3 +19,4 @@ Conéctate a tu cuenta de ATLAS y realizar las siguientes queries utilizando la 
 
 Utilizar el operador $nin (not in). El resultado debe mostrar solo el campo name y debe estar ordenado alfabéticamente en orden ascendente, es decir de la A-Z
  (Resultados esperados 188)
+

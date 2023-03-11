@@ -13,11 +13,32 @@ Las clases Pokemon y Move han de implementar la clase `Serializable` y han de es
 > ⚠️ Nótese que la clase Pokemon, además de getters y setter, tiene los métodos  `addMove` y `removeMove`
 
 ### Ejercicio 2: MongoDB
-Realiza las siguientes consultas de Mongo
-1. Consulta
-1. Consulta
-1. Consulta
-1. Consulta
+Conéctate a tu cuenta de ATLAS y realizar las siguientes queries utilizando la BBDD sample_restaurants.
+
+Pegar el texto necesario para ejecutar las queries en el apartado correspondidente del fichero `2-mongoqueries.txt`.
+
+1. Buscar todos los documentos de la colección neighborhoods de tipo MultiPolygon 
+    > Resultados esperados 27
+
+2. Buscar todos los documentos de la colección neighborhoods de tipo MultiPolygon y name Corona 
+    > Resultados esperados 1
+
+3. Buscar todos los documentos de la colección neighborhoods donde el name es distinto de “Borough Park”. 
+   > Utilizar el operador $ne (not equal).  El resultado debe mostrar solo el campo name. 
+   > 
+    > Resultados esperados 194 
+
+4. Buscar todos los documentos de la colección neighborhoods donde el name  es distinto de
+   •	Borough Park
+   •	Bedford
+   •	park-cemetery-etc-Bronx
+   •	park-cemetery-etc-Manhattan
+   •	park-cemetery-etc-Queens
+   •	park-cemetery-etc-Staten Island
+
+   > Utilizar el operador $nin (not in). El resultado debe mostrar solo el campo name y debe estar ordenado alfabéticamente en orden ascendente, es decir de la A-Z
+   > 
+    > Resultados esperados 188 
 
 ## Calificación:
 
@@ -31,7 +52,7 @@ Se detallan a continuación la calificación de los distintos apartados
 - [1pt] Método createPokemon
 - [0.5pt] Método findPokemon
 - [1pt] Método addMoveToPokemon
-- [1pt] Método removeMoveFromPokemon
+- [1pt] 👹 Método removeMoveFromPokemon
 - [0.25pt] Método listAllPokemon
 - [0.25pt] Método listAllMoves
 
