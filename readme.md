@@ -2,6 +2,10 @@
 
 ## Instrucciones
 
+- Partiendo de un repositorio, realizar los dos ejercicios prácticos propuestos sobre Hibernate y sobre MongoDB.
+- Leer todo el enunciado antes de empezar.
+- Una vez leído, gestionar el tiempo necesario para realizar cada apartado. En el caso de que te atasques, continúa con los siguientes apartados.
+
 ## Enunciados
 ### Ejercicio 1: Hibernate (6 puntos)
 Crear un conjunto de clases siguiendo el siguiente esquema:
