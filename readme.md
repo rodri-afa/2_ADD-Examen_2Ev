@@ -62,7 +62,7 @@ Se detallan a continuación la calificación de los distintos apartados
 
 ### Ejercicio 2: MongoDB
 - [0.5pt] Consulta 1
-- [1pt] Consulta 2
-- [1pt] Consulta 3
+- [0.5pt] Consulta 2
+- [1.5pt] Consulta 3
 - [1.5pt] Consulta 4
 
